@@ -1,0 +1,2 @@
+source/outputs/GFCN_iam_lignes_64H_NKR/checkpoints/best_578.pt filter=lfs diff=lfs merge=lfs -text
+iam_lines.tar.gz filter=lfs diff=lfs merge=lfs -text
