@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 from source.ocr import OCR
 from source.models import GFCN
 from source.ocr_dataset import OCRDataset

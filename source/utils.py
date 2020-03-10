@@ -177,7 +177,7 @@ def model_summary(model, shape, device):
     for layer in layers_info:
         print("{:^20s} - {:^50s} - {:^15s} - {:^10s}".format(layer["name"], layer["details"],
                                                              str(tuple(layer["shape"])), str(layer["params"])))
-    print("\nTotal params : {}".format(f"{compute_nb_params(model):,}"))
+    print("\nTotal params : {}".format("{:,}".format(compute_nb_params(model))))
 
 
 def receptive_field(model, shape, device):
