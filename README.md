@@ -1,7 +1,7 @@
 # PytorchOCR
 A pytorch implementation of a line optical character recognition (OCR).
 
-We provide a pre-formatted line IAM dataset and a pre-trained Gated Fully Convolutional (GFCN) model reaching 5.23% of CER for the validation set and 7.99% for the test set.
+We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set.
 
 ## Format your data
 Your dataset folder must be placed in the "Datasets" folder and be structured in the following way:
@@ -17,7 +17,7 @@ Your dataset folder must be placed in the "Datasets" folder and be structured in
         * valid.txt
         * test.txt
         
-where train, valid and test are folders containing the text line images and train.txt, valid.txt and test.txt and the 
+where train, valid and test are folders containing the text line images and train.txt, valid.txt and test.txt are the 
 files containing the corresponding ground truths.
 
 Those files should be formatted like that: <br/>
@@ -33,13 +33,12 @@ train/img2.png another ground truth <br/>
 
 
 Folder and file names can be personnalised in the format_data.py file
-A ready-to-use version of the IAM lines dataset is given as example in the root folder:
 
+You can then format the dataset running 
 ```bash
-tar -xzf iam_lines.tar.gz -C Datasets/
+cd source
+python3 format_data.py
 ```
-
-You can then format the dataseet running *source/format_data.py*
 
 
 ## Train your model
@@ -58,7 +57,7 @@ Training your model generates some files:
     * model weights (.pt) for the epoch reaching the best CER (for validation set) and for the last completed epoch.
 
 ## Evaluate your model
-Run *source/models" with the same parameters you use for training and call model.predict("test", ["cer", "wer"]).
+Run *source/main.py" with the same parameters you use for training and call model.predict("test", ["cer", "wer"]).
 
 The first argument is the set to use: "train", "valid" or "test"
 
