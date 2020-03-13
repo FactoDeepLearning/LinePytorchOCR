@@ -1,7 +1,11 @@
 # PytorchOCR
 A pytorch implementation of a line optical character recognition (OCR).
 
-We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set.
+We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set. We used the following split of this dataset :
+
+| Train | Validation | Test |
+|:----:|:----:|:----:|
+| 6,482| 976 | 2,915 |
 
 ## Format your data
 Your dataset folder must be placed in the "Datasets" folder and be structured in the following way:
