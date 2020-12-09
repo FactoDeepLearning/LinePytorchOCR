@@ -1,5 +1,8 @@
 # PytorchOCR
-A pytorch implementation of a line optical character recognition (OCR).
+
+This repository is a public implementation of the paper: "Recurrence-free unconstrained handwritten text recognition using gated fully convolutional network".
+
+The paper is available [here](https://www.researchgate.net/publication/346563118_Recurrence-free_unconstrained_handwritten_text_recognition_using_gated_fully_convolutional_network)
 
 We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set. We used the following split of this dataset :
 
@@ -68,4 +71,23 @@ The first argument is the set to use: "train", "valid" or "test"
 The second argument is a list of metrics among ["cer", "wer", "ground_truth", "pred", "proba", "time", "loss_ctc"].
 
 Computed metrics are then written in text files in *source/outputs/model_name/results*.
+
+## Citation
+
+```bibtex
+@inproceedings{Coquenet2020,
+  author    = {Denis Coquenet and
+               Cl{\'{e}}ment Chatelain and
+               Thierry Paquet},
+  title     = {Recurrence-free unconstrained handwritten text recognition using gated
+               fully convolutional network},
+  booktitle = {17th International Conference on Frontiers in Handwriting Recognition,
+               {ICFHR} 2020, Dortmund, Germany, September 8-10, 2020},
+  pages     = {19--24},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICFHR2020.2020.00015},
+  doi       = {10.1109/ICFHR2020.2020.00015},
+}
+```
 
