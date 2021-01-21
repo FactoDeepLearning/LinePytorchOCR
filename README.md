@@ -41,6 +41,8 @@ train/img2.png another ground truth <br/>
 
 Folder and file names can be personnalised in the format_data.py file
 
+A script example of this dataset pre-fromatting is available for the IAM dataset in the folder "preformat iam"
+
 You can then format the dataset running 
 ```bash
 cd source
