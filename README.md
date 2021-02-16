@@ -95,3 +95,6 @@ Computed metrics are then written in text files in *source/outputs/model_name/re
 }
 ```
 
+## License
+
+This whole project is under Cecill-C license.
