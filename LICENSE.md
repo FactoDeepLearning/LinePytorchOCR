@@ -17,7 +17,7 @@ the two main principles guiding its drafting:
       both authors and holders of the economic rights over software.
 
 The authors of the CeCILL-C (for Ce[a] C[nrs] I[nria] L[ogiciel] L[ibre])
-license are:
+license are: Université de Rouen Normandie (1), INSA Rouen (2), tutelles du laboratoire LITIS (1 et 2)
 
 Commissariat à l'Energie Atomique - CEA, a public scientific, technical
 and industrial research establishment, having its principal place of
