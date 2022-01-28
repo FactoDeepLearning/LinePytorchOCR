@@ -2,11 +2,13 @@
 
 This repository is a public implementation of the paper: "Recurrence-free unconstrained handwritten text recognition using gated fully convolutional network".
 
-The paper is available [here](https://www.researchgate.net/publication/346563118_Recurrence-free_unconstrained_handwritten_text_recognition_using_gated_fully_convolutional_network)
+The paper is available [here](https://www.researchgate.net/publication/346563118_Recurrence-free_unconstrained_handwritten_text_recognition_using_gated_fully_convolutional_network).
 
-Pretrained model weights are available [here](https://git.litislab.fr/dcoquenet/linepytorchocr) 
+Pretrained model weights are available [here](https://git.litislab.fr/dcoquenet/linepytorchocr).
 
-We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set. We used the following split of this dataset :
+To discover my other works, here is my [academic page](https://factodeeplearning.github.io/).
+
+We provide a pre-trained Gated Fully Convolutional (GFCN) model on the line IAM dataset reaching 5.23% of CER for the validation set and 7.99% for the test set. We used the following split of this dataset:
 
 | Train | Validation | Test |
 |:----:|:----:|:----:|
